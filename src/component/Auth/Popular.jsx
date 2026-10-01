@@ -1,7 +1,4 @@
 import {  useState } from "react";
-import Card from "./card";
-
-
 import "./Trending.css";
 
 
@@ -70,7 +67,7 @@ const Popular = () => {
 
 
       <div className="movie-grid">
-        {loading ? (
+        {/* {loading ? (
           <p>Loading...</p>
         ) : !error ? (
 
@@ -86,7 +83,7 @@ const Popular = () => {
           })
         ) : (
           <p>Something went wrong</p>
-        )}
+        )} */}
       </div>
 
       
