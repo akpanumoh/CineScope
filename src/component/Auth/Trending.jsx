@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Card from "../card";
 import { UseMovieContext } from "../../context/MovieContext";
 import "./Trending.css";
 
@@ -18,7 +17,7 @@ const Trending = () => {
             <h4>See all</h4>
         </div>
 
-      <div className="movie-grid">
+      {/* <div className="movie-grid">
         {loading ? (
           <p>Loading...</p>
         ) : !error ? (
@@ -36,7 +35,7 @@ const Trending = () => {
         ) : ( 
           <p>Something went wrong</p>
         )}
-      </div>
+      </div> */}
 
       
     </section>
