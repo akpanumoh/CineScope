@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import Card from "./card";
-import Popu from "./Popu";
+
 
 import "./Trending.css";
 
