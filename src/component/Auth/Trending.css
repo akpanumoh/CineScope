@@ -1,0 +1,29 @@
+.trending-header{
+    display: flex;
+    padding: 0 30px;
+    margin-top: 6%;
+   
+}
+
+.trending-header h4{
+    margin-left: auto;
+    color: orange;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 1%;
+
+}
+
+.trending-header h2{
+    font-size: 25px;
+}
+
+.movie-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+

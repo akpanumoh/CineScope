@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.profile-header h1{
+    background-color: black;
+    border-bottom: 1px solid gray;
+    margin-top: 2%;
+    padding: 0 30px;
+    
+
+}
+
+.profile-img img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 3%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px white;
+    
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.profile-info h3{
+    font-size: 27px;
+}
+
+.profile-info h4{
+    font-size: 15px;
+}
+
+.profile-details{
+    padding: 0 30px;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(36, 36, 36);
+    margin-top: 3%;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    border-radius: 20px;
+   
+   
+    
+}
+
+.profile-watchlist-1{
+    margin-top: 2%;
+    width: 100%;
+    border-bottom: 1px solid wheat;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.profile-watchlist-2{
+    width: 100%;
+    border-bottom: 1px solid wheat;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.profile-watchlist-3{
+    
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+.profile-link{
+    justify-items: center;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 17px;
+    
+}
+
+.profile-link a{
+    color: red;
+    text-decoration: none;
+}
+
+.profile-link :hover{
+    color: gray;
+    border-bottom: 1px solid gray;
+    transition: 1s;
+}
+
+
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+    cursor: pointer;
+    margin-bottom: 3%;
+    border-top: red;
+
+   
+}
+
+.footer-item :hover{
+    background-color: gray;
+    transition: 1s;
+    color: orange;
+    border-radius: 5px;
+    padding: 5px;
+   
+   
+    
+}
+
+.link{
+    color: white;
+   
+    
+}
+
+.link :hover{
+     background-color: gray;
+    transition: 1s;
+    color: orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.link-text{
+    color: white;
+    text-decoration: none;
+}
+

@@ -1,0 +1,21 @@
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.image {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card h1{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.card p{
+    text-align: center;
+    margin-bottom: 3%;
+}

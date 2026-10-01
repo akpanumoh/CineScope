@@ -1,0 +1,227 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0e12;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.backdrop {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #0d0e12;
+  overflow: hidden;
+}
+
+/* Background image */
+.backdrop > img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.45;
+}
+
+/* Dark gradient over background */
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 620px;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 10, 14, 0.45),
+    #0d0e12 90%
+  );
+}
+
+/* Main content */
+.main-content {
+  position: relative;
+  z-index: 2;
+  width: 95%;
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 210px;
+  display: flex;
+  gap: 28px;
+}
+
+/* Movie poster */
+.movie-poster {
+  border: 3px solid rgb(169, 169, 169);
+  width: 290px;
+  min-width: 185px;
+  height: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Movie details */
+.details {
+  flex: 1;
+  padding-top: 0;
+}
+
+.details h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #eeeeee;
+}
+
+.details > h4 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffd21a;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details > h4 span {
+  color: #b9b9b9;
+}
+
+/* Genre buttons */
+.btn {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.btn button {
+  background: #202126;
+  color: #dddddd;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+/* Description */
+.details > p {
+  max-width: 700px;
+  color: #bdbdbd;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 23px;
+}
+
+/* Watchlist / trailer buttons */
+.btn-2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.btn-2 button {
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-2 button:first-child {
+  background: #ffd21a;
+  color: #151515;
+  border: 1px solid #ffd21a;
+  font-weight: bold;
+}
+
+.btn-2 button:last-child {
+  background: #1c1c20;
+  color: #eeeeee;
+  border: 1px solid #3b3b3b;
+}
+
+/* Overview */
+.detail h2 {
+  font-size: 14px;
+  color: #dddddd;
+  margin-bottom: 14px;
+}
+
+.overview-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 60px;
+  row-gap: 17px;
+  border-bottom: 1px solid #25262a;
+  padding-bottom: 30px;
+}
+
+.overview-detail h4 {
+  color: #77777c;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 7px;
+}
+
+.overview-detail p {
+  color: #c7c7c7;
+  font-size: 12px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+/* @media (max-width: 700px) {
+  .backdrop > img {
+    height: 400px;
+  }
+
+  .gradient {
+    height: 500px;
+  }
+
+  .main-content {
+    width: 90%;
+    padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-poster {
+    width: 180px;
+    min-width: 180px;
+    height: 270px;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .details h1 {
+    font-size: 23px;
+  }
+
+  .details > p {
+    font-size: 12px;
+  }
+
+  .overview-detail {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+ */
