@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Card from "./card";
+import Card from "../card";
 import { UseMovieContext } from "../../context/MovieContext";
 import "./Trending.css";
 
